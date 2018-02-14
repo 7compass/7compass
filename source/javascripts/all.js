@@ -1,5 +1,4 @@
 
-//= require jquery-2.0.2.min
 //= require_tree .
 
 var SevenCompass = {};
@@ -29,7 +28,7 @@ SevenCompass.attachBillingModal = function() {
   });
 };
 SevenCompass.setupSmoothScroll = function() {
-  $(".scroll").click(function(e){   
+  $(".scroll").click(function(e){
     e.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
   });
