@@ -6,5 +6,3 @@ gem 'mini_racer'
 # gem 'therubyracer'
 gem 'oj' # faster JS compiles
 
-# For deploy to github pages
-gem 'mgd'
