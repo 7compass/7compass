@@ -6,5 +6,5 @@ gem 'mini_racer'
 # gem 'therubyracer'
 gem 'oj' # faster JS compiles
 
-# For github pages
-gem 'middleman-deploy'
+# For deploy to github pages
+gem 'mgd'

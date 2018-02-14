@@ -7,4 +7,4 @@ Development:
 $ bundle exec middleman server
 
 Production:
-middleman deploy
+$ mgd
