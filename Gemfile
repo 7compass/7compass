@@ -1,8 +1,9 @@
+
+ruby '2.4.1'
+
 source 'https://rubygems.org'
 
-gem "middleman"
-# gem "middleman", "~>3.0.14"
+gem 'middleman', '~> 3'
 gem 'mini_racer'
-# gem 'therubyracer'
 gem 'oj' # faster JS compiles
 
