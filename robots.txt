@@ -1,0 +1,42 @@
+# Search crawlers and AI crawlers are allowed so the site can be fetched and cited.
+# Training and search are separate switches. Both are allowed here, which matches
+# the previous site (there was no robots.txt). This file is not a ranking factor.
+# Google Search, including AI Overviews and AI Mode, follows Googlebot.
+# Google-Extended does not affect Google Search. It covers future Gemini training
+# and grounding in Gemini Apps and Vertex AI Grounding with Google Search.
+# The Search Console setting "Search generative AI" is not controlled in this file.
+
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+Sitemap: https://7compass.com/sitemap.xml
