@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 2em
+  margin-bottom: 1.35em
 }
 
 strong {
@@ -47,8 +47,10 @@ a:hover, a:focus {
 }
 
 #wrapper {
-  width: 800px;
-  margin: 50px auto 15px auto
+  width: auto;
+  max-width: 40rem;
+  margin: 2.5rem auto 1.5rem;
+  padding: 0 1.25rem
 }
 
 .logoBar {
